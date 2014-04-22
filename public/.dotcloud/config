@@ -1,0 +1,6 @@
+{
+    "push_branch": null, 
+    "application": "geolocation", 
+    "version": "0.9.8", 
+    "push_protocol": "rsync"
+}
