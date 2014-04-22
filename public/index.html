@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Geolocation Examples</title>
+		<link rel="stylesheet" type="text/css" href="css/style.css" />
+		<script type="text/javascript" src="javascript/jquery-2.1.0.min.js"></script>
+		<script type="text/javascript" src="javascript/jquery.ba-dotimeout.min.js"></script>
+		<script type="text/javascript" src="javascript/script.js"></script>
+	</head>
+	<body>
+		<h1>Geolocation Examples</h1>
+		<hr/>
+		<h2>Retrieved via the browser (HTML5)</h2>
+		<div id="location1">Loading...</div>
+		<hr/>
+		<h2>Retrieved via the browser (HTML5) with additional information</h2>
+		<div id="location2">Loading...</div>
+		<hr/>
+		<h2>Retrieved via the IP address</h2>
+		<div id="location3">Loading...</div>
+		<hr/>
+		<h2>Notes</h2>
+		<ul>
+			<li>Both solutions require access to an external web resource (which have demo requests limits, but contain paid services too).</li>
+			<li>HTML5 location retrieval is generally more accurate, but takes a little longer.</li>
+			<li>As such, you may find varying results between the top two and the third value.</li>
+			<li>HTML5 solution is not available on Internet Explorer 9+, Firefox, Chrome, Safari and Opera.</li>
+			<li>Additionally, you will have to accept the sharing of location data inside the browser that supports it.</li>
+			<li>Geolocation is much more accurate for devices with GPS, like a mobile phone.</li>
+		</ul>
+	</body>
+</html>
